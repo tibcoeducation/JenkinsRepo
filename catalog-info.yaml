@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'Jenkins Component'
+  description: 'jenkins  description'
+  annotations:
+    jenkins.io/job-full-name: 'jenkinsFolder/jenkins-project-name' # use this instead
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Jenkins
