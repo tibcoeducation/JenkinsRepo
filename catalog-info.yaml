@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'Jenkins Component'
+  name: 'Jenkins_Component'
   description: 'jenkins  description'
   annotations:
     jenkins.io/job-full-name: 'jenkinsFolder/jenkinsProjectName' # use this instead
