@@ -4,7 +4,7 @@ metadata:
   name: 'Jenkins Component'
   description: 'jenkins  description'
   annotations:
-    jenkins.io/job-full-name: 'jenkinsFolder/jenkins-project-name' # use this instead
+    jenkins.io/job-full-name: 'jenkinsFolder/jenkinsProjectName' # use this instead
 
 spec:
   type: service
