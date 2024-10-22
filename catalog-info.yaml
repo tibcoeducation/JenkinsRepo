@@ -5,7 +5,7 @@ metadata:
   description: 'jenkins  description'
   annotations:
     jenkins.io/job-full-name: 'jenkinsFolder/jenkinsProjectName' # use this instead
-
+    jenkins.io/branch: 'main'
 spec:
   type: service
   lifecycle: experimental
